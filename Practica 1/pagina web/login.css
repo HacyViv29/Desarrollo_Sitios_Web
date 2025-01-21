@@ -1,0 +1,126 @@
+/* Configuración global */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #262626;
+}
+
+/* Header */
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Contenedor principal */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    gap: 40px;
+}
+
+/* Vista previa de la aplicación móvil */
+.phone-preview img {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Formulario de inicio de sesión */
+.login-form {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.login-form h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #262626;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
+
+.login-form button {
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-form button:hover {
+    background-color: #007bbd;
+}
+
+.login-form .or {
+    margin: 20px 0;
+    font-size: 0.9rem;
+    color: #8e8e8e;
+}
+
+.facebook-login {
+    color: #385185;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.forgot-password {
+    color: #00376b;
+    font-size: 0.8rem;
+    display: block;
+    margin-top: 10px;
+}
+
+.signup-prompt {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.signup-prompt a {
+    color: #0095f6;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #8e8e8e;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #8e8e8e;
+    text-decoration: none;
+}

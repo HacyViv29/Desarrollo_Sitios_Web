@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #78727c;
+    color: #333;
+}
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+}
+.banner {
+    text-align: center;
+}
+.banner h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+nav {
+    margin-top: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.profile-card {
+    text-align: center;
+    padding: 20px;
+}
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.profile-card h2 {
+    margin: 10px 0;
+    color: #444;
+}
+.profile-card p {
+    font-size: 1rem;
+    color: #666;
+}
+.contact-section {
+    margin-top: 30px;
+    text-align: center;
+}
+.contact-section h2 {
+    margin-bottom: 15px;
+    color: #444;
+}
+.contact-section p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #666;
+}
+.social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+.social-media a:hover {
+    text-decoration: underline;
+}

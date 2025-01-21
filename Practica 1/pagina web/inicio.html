@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram - Inicio</title>
+    <link rel="stylesheet" href="inicio.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="logo">Instagram</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar">
+            </div>
+            <div class="icons">
+                <a href="#"><img src="icons/home.svg" alt="Inicio"></a>
+                <a href="#"><img src="icons/messenger.svg" alt="Messenger"></a>
+                <a href="#"><img src="icons/add.svg" alt="Publicar"></a>
+                <a href="#"><img src="icons/explore.svg" alt="Explorar"></a>
+                <a href="#"><img src="icons/heart.svg" alt="Notificaciones"></a>
+                <a href="#"><img src="icons/profile.svg" alt="Perfil"></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="main-container">
+        <section class="feed">
+            <!-- Publicación 1 -->
+            <article class="post">
+                <div class="post-header">
+                    <img src="users/user1.jpg" alt="Usuario" class="user-pic">
+                    <p class="username">usuario1</p>
+                </div>
+                <img src="posts/post1.jpg" alt="Publicación" class="post-img">
+                <div class="post-actions">
+                    <img src="icons/like.svg" alt="Me gusta">
+                    <img src="icons/comment.svg" alt="Comentar">
+                    <img src="icons/share.svg" alt="Compartir">
+                </div>
+                <p class="post-likes">125 Me gusta</p>
+                <p class="post-caption"><span class="username">usuario1</span> Un día increíble en la playa 🏖️</p>
+                <p class="post-time">Hace 2 horas</p>
+            </article>
+        </section>
+
+        <!-- Barra lateral -->
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="users/mi_perfil.jpg" alt="Mi perfil" class="user-pic">
+                <div>
+                    <p class="username">mi_usuario</p>
+                    <p class="name">Mi Nombre</p>
+                </div>
+            </div>
+            <div class="suggestions">
+                <p class="title">Sugerencias para ti</p>
+                <div class="suggestion">
+                    <img src="users/user2.jpg" alt="Sugerencia" class="user-pic">
+                    <div>
+                        <p class="username">usuario2</p>
+                        <p class="follow-info">Te sigue</p>
+                    </div>
+                    <button>Seguir</button>
+                </div>
+                <div class="suggestion">
+                    <img src="users/user3.jpg" alt="Sugerencia" class="user-pic">
+                    <div>
+                        <p class="username">usuario3</p>
+                        <p class="follow-info">Te sigue</p>
+                    </div>
+                    <button>Seguir</button>
+                </div>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
